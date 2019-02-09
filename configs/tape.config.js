@@ -3,4 +3,9 @@ module.exports = {
     message: 'should support basic usage',
     options: {}
   },
+
+  'custom-properties': {
+    message: 'should support custom properties',
+    options: {}
+  },
 };

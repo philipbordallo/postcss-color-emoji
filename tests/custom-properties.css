@@ -1,0 +1,7 @@
+:root {
+  --emoji: color-emoji;
+}
+
+.one {
+  font-family: var(--emoji);
+}

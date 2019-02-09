@@ -1,0 +1,7 @@
+:root {
+  --emoji: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.one {
+  font-family: var(--emoji);
+}
