@@ -15,10 +15,12 @@
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.es.js",
   "scripts": {
+    "prepublishOnly": "npm test",
     "build": "rollup --config configs/rollup.config.js --silent",
     "lint": "eslint --config configs/eslint.config.js ./src/",
     "pretest": "npm run build && npm run lint",
-    "test": "postcss-tape"
+    "test": "postcss-tape",
+    "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "postcssConfig": {
     "config": "./configs/tape.config.js",
