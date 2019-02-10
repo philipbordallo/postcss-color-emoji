@@ -58,7 +58,7 @@ Then use the `color-emoji` font-family name where ever you need it.
 }
 ```
 
-```pcss
+```css
 /* Using custom properties */
 :root {
   --emoji: color-emoji;
