@@ -21,6 +21,7 @@
 }
 ```
 
+Check out the <a href="https://philipbordallo.github.io/postcss-color-emoji/">visual test</a>.
 
 ## Install
 
