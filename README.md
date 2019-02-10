@@ -68,6 +68,11 @@ Then use the `color-emoji` font-family name where ever you need it.
 }
 ```
 
+## Credits
+- Nick Galbreath for his article on the [CSS Color emoji stack](https://www.client9.com/css-color-emoji-stack/)
+- Mark Dotto for his piece on [shipping system fonts to GitHub.com](http://markdotto.com/2018/02/07/github-system-fonts/)
+
+
 ## [License](./LICENSE) ##
 
 

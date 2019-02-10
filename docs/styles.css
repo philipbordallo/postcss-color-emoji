@@ -1,0 +1,66 @@
+html {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Ubuntu, Cantarell, Helvetica Neue;
+}
+
+aside {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  background-color: white;
+  padding: .5rem;
+  border-radius: 5px;
+}
+
+a:link,
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+code {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: .875rem;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 4rem;
+}
+
+thead {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: whitesmoke;
+}
+
+th {
+  font-weight: normal;
+  padding: 10px;
+}
+
+td {
+  padding: .5rem 1rem;
+  background-color: white;
+  border: 2px solid whitesmoke;
+}
+
+.emoji {
+  font-size: 36px;
+  text-align: center;
+}
+
+.normal-emoji {
+  font-family: sans-serif;
+}
+
+.color-emoji {
+  font-family: 'Apple Color Emoji';
+}
+
+.both-emoji {
+  font-family: sans-serif, 'Apple Color Emoji';
+}
