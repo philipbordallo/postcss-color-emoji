@@ -5,6 +5,7 @@
 [![Build Status][cli-img]][cli-url]
 [![Dependency Status][david-img]][david-url]
 
+Depending on the font, some emojis are rendered as their text variation instead of the colored version you know and love. This [PostCSS][postcss] plugin gives you full access to the system emojis on macOS, Windows, and Linux.
 
 ```css
 /* Input */
