@@ -18,8 +18,13 @@
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.es.js",
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=8.0.0"
   },
+  "browserslist": [
+    "node 12",
+    "node 10",
+    "node 8"
+  ],
   "scripts": {
     "prepublishOnly": "npm test",
     "build": "rollup --config configs/rollup.config.js --silent",
