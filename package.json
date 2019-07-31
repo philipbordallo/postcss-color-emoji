@@ -30,8 +30,7 @@
     "build": "rollup --config configs/rollup.config.js --silent",
     "lint": "eslint --config configs/eslint.config.js ./src/",
     "pretest": "npm run build && npm run lint",
-    "test": "postcss-tape",
-    "version": "auto-changelog -p && git add CHANGELOG.md"
+    "test": "postcss-tape"
   },
   "postcssConfig": {
     "config": "./configs/tape.config.js",
