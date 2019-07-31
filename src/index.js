@@ -13,8 +13,11 @@ const SYSTEM_MONOSPACE_FONTS = createFontFamilyString([
   'Noto Color Emoji', // Linux
 ]);
 
-export default postcss.plugin(PLUGIN_NAME, () => (root) => {
-  root.walkDecls(MATCH_FONT_FAMILY, (decl) => {
-    decl.value = decl.value.replace(/color-emoji/, SYSTEM_MONOSPACE_FONTS); // eslint-disable-line no-param-reassign
+const plugin = postcss.plugin(PLUGIN_NAME, () =>
+  (root) => {
+    root.walkDecls(MATCH_FONT_FAMILY, (decl) => {
+      decl.value = decl.value.replace(/color-emoji/, SYSTEM_MONOSPACE_FONTS); // eslint-disable-line no-param-reassign
+    });
   });
-});
+
+export default plugin;

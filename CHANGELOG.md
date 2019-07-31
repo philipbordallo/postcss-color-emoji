@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [v2.0.0] – 2019-07-31
 
 ### Deprecated
-- Node 6 support 6ff5dbf [`6ff5dbf`](https://github.com/philipbordallo/postcss-color-emoji/commit/6ff5dbf)
+- Node 6 support [`6ff5dbf`](https://github.com/philipbordallo/postcss-color-emoji/commit/6ff5dbf)
 
 
 ## [v1.1.1] – 2019-02-10
@@ -29,6 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Configs [`3093c01`](https://github.com/philipbordallo/postcss-color-emoji/commit/3093c0159d7e2a63ccceee4f0d7faafbdf965cd6)
 - Tests [`0f498ef`](https://github.com/philipbordallo/postcss-color-emoji/commit/0f498ef29cebb788c079ce7c9519c7880ffd3d8f)
 
+[v2.0.0]: https://github.com/philipbordallo/postcss-color-emoji/compare/v1.1.1...v2.0.0
 [v1.1.1]: https://github.com/philipbordallo/postcss-color-emoji/compare/v1.1.0...v1.1.1
 [v1.1.0]: https://github.com/philipbordallo/postcss-color-emoji/compare/v1.0.1...v1.1.0
 [v1.0.1]: https://github.com/philipbordallo/postcss-color-emoji/compare/v1.0.0...v1.0.1
