@@ -28,7 +28,7 @@
   "scripts": {
     "prepublishOnly": "npm test",
     "build": "rollup --config configs/rollup.config.js --silent",
-    "lint": "eslint --config configs/eslint.config.js ./src/",
+    "lint": "eslint ./src/",
     "pretest": "npm run build && npm run lint",
     "test": "postcss-tape"
   },
@@ -36,6 +36,9 @@
     "config": "./configs/tape.config.js",
     "fixtures": "./tests/",
     "plugin": "./dist/index.cjs.js"
+  },
+  "eslintConfig": {
+    "extends": "@philipbordallo"
   },
   "babel": {
     "presets": [
