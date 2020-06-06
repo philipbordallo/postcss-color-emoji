@@ -1,4 +1,4 @@
-const babel = require('rollup-plugin-babel');
+const { babel } = require('@rollup/plugin-babel');
 
 module.exports =  {
   input: 'src/index.js',
@@ -7,6 +7,8 @@ module.exports =  {
     { file: './dist/index.es.js', format: 'es' }
   ],
   plugins: [
-    babel()
+    babel({
+      babelHelpers: 'bundled'
+    })
   ]
 };
