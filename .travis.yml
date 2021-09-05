@@ -3,6 +3,5 @@ node_js:
   - "node"
   - "14"
   - "12"
-  - "10"
 
 script: npm run test -- --ci
