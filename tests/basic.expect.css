@@ -1,7 +1,12 @@
-.one {
+.font-family {
   font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.two {
-  font: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.font {
+  font: 16px "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.other-properties {
+  counter-reset: color-emoji;
+  background-image: url(color-emoji.jpg);
 }

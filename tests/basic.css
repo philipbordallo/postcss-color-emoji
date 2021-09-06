@@ -1,7 +1,12 @@
-.one {
+.font-family {
   font-family: color-emoji;
 }
 
-.two {
-  font: color-emoji;
+.font {
+  font: 16px color-emoji;
+}
+
+.other-properties {
+  counter-reset: color-emoji;
+  background-image: url(color-emoji.jpg);
 }

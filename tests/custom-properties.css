@@ -2,6 +2,6 @@
   --emoji: color-emoji;
 }
 
-.one {
+.custom-properties {
   font-family: var(--emoji);
 }
