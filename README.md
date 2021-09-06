@@ -2,7 +2,7 @@
 > &#x270F; Emoji in full color!
 
 [![NPM Version][npm-img]][npm-url]
-[![Build Status][cli-img]][cli-url]
+[![Build Status][ci-img]][ci-url]
 [![Dependency Status][david-img]][david-url]
 
 Depending on the font, some emojis are rendered as their text variation instead of the colored version you know and love. This [PostCSS][postcss] plugin gives you full access to the system emojis on macOS, Windows, and Linux.
@@ -81,8 +81,8 @@ Then use the `color-emoji` font-family name where ever you need it.
 [david-img]: https://img.shields.io/david/philipbordallo/postcss-color-emoji.svg
 [david-url]: https://david-dm.org/philipbordallo/postcss-color-emoji
 
-[cli-img]: https://img.shields.io/travis/philipbordallo/postcss-color-emoji.svg
-[cli-url]: https://travis-ci.org/philipbordallo/postcss-color-emoji
+[ci-img]: https://github.com/philipbordallo/postcss-color-emoji/actions/workflows/ci.yml/badge.svg
+[ci-url]: https://github.com/philipbordallo/postcss-color-emoji/actions/workflows/ci.yml
 
 [npm-img]: https://img.shields.io/npm/v/postcss-color-emoji.svg
 [npm-url]: https://www.npmjs.com/package/postcss-color-emoji
