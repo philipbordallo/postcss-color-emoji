@@ -28,10 +28,10 @@ Check out the <a href="https://philipbordallo.github.io/postcss-color-emoji/">vi
 
 ```sh
 # npm
-npm install --save-dev postcss-color-emoji
+npm install --save-dev postcss postcss-color-emoji
 
 # or yarn
-yarn add --dev postcss-color-emoji
+yarn add --dev postcss postcss-color-emoji
 ```
 
 
