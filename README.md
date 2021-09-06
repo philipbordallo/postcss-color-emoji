@@ -81,7 +81,7 @@ Then use the `color-emoji` font-family name where ever you need it.
 [david-img]: https://img.shields.io/david/philipbordallo/postcss-color-emoji.svg
 [david-url]: https://david-dm.org/philipbordallo/postcss-color-emoji
 
-[ci-img]: https://github.com/philipbordallo/postcss-color-emoji/actions/workflows/ci.yml/badge.svg
+[ci-img]: https://img.shields.io/github/workflow/status/philipbordallo/postcss-color-emoji/Continuous%20Integration
 [ci-url]: https://github.com/philipbordallo/postcss-color-emoji/actions/workflows/ci.yml
 
 [npm-img]: https://img.shields.io/npm/v/postcss-color-emoji.svg
