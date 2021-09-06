@@ -112,8 +112,11 @@
       const colorCellElement = createEmojiCell(emoji, 'color-emoji');
       rowElement.append(colorCellElement);
 
-      const bothCellElement = createEmojiCell(emoji, 'both-emoji');
-      rowElement.append(bothCellElement);
+      const beforeCellElement = createEmojiCell(emoji, 'before-emoji');
+      rowElement.append(beforeCellElement);
+
+      const afterCellElement = createEmojiCell(emoji, 'after-emoji');
+      rowElement.append(afterCellElement);
 
       contentElement.append(rowElement);
     });

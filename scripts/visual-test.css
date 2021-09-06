@@ -1,5 +1,5 @@
 html {
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
+  font-family: system-ui;
 }
 
 aside {
@@ -21,7 +21,7 @@ a:hover {
 }
 
 code {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: system-monospace;
   font-size: .875rem;
 }
 
@@ -58,13 +58,13 @@ td {
 }
 
 .color-emoji {
-  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: color-emoji;
 }
 
 .before-emoji {
-  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+  font-family: color-emoji, sans-serif;
 }
 
 .after-emoji {
-  font-family: sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: sans-serif, color-emoji;
 }
